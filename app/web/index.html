@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Customer Segmentation | Bank Muscat BRD</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">LOCAL DEMONSTRATOR</p>
+      <h1>Customer Segmentation</h1>
+      <p class="intro">Classify a customer by account type. This local demo uses synthetic data only.</p>
+      <section class="card">
+        <form id="segment-form">
+          <label>Customer ID<input name="customer_id" value="CUST-1001" required /></label>
+          <label>Account type
+            <select name="account_type">
+              <option>Savings</option><option>Current</option><option>Salary</option>
+              <option>Fixed Deposit</option><option>Term Deposit</option><option>Business</option><option>Corporate</option>
+            </select>
+          </label>
+          <label>Product codes <input name="product_codes" placeholder="SAV, DEBIT" /></label>
+          <label>Relationship tenure (months)<input name="relationship_tenure_months" type="number" min="0" value="18" /></label>
+          <label>Interaction text<textarea name="interaction_text" placeholder="Optional short interaction summary"></textarea></label>
+          <button type="submit">Segment customer</button>
+        </form>
+      </section>
+      <section id="result" class="card result" aria-live="polite"><p>Submit a customer to view the segment.</p></section>
+      <p class="footnote">For local use only. Do not enter real customer data without approved controls.</p>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>

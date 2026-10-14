@@ -1,0 +1,33 @@
+account_type,product_codes,relationship_tenure_months,interaction_text,segment
+Savings,SAV DEBIT,8,Uses mobile app for bill payments,Retail Savings
+Savings,SAV DEBIT,22,Maintains regular savings balance,Retail Savings
+Savings,SAV ATM,4,New retail customer with savings account,Retail Savings
+Savings,SAV CARD,35,Prefers digital transactions,Retail Savings
+Current,CUR CHEQUE,16,Uses cheque book and local transfers,Retail Transactional
+Current,CUR DEBIT,9,Frequent account transfers,Retail Transactional
+Current,CUR ATM,42,Daily transaction account,Retail Transactional
+Current,CUR CARD,28,Uses current account for household payments,Retail Transactional
+Salary,SAL DEBIT,14,Monthly salary credit received,Payroll Banking
+Salary,SAL CARD,26,Salary account linked to debit card,Payroll Banking
+Salary,SAL ATM,6,Recently onboarded payroll customer,Payroll Banking
+Salary,SAL LOAN,31,Receives employer salary each month,Payroll Banking
+Fixed Deposit,FD SAV,36,Interested in secure deposit returns,Deposits & Investment
+Fixed Deposit,FD INV,48,Maintains term deposit investment,Deposits & Investment
+Term Deposit,TD INV,18,Opened a term deposit for long term savings,Deposits & Investment
+Term Deposit,TD FD,60,Deposit customer seeking renewal,Deposits & Investment
+Business,SME BIZ,24,Small business owner needs collections,Business Banking
+Business,BIZ POS,17,Merchant account with point of sale,Business Banking
+Current,SME CUR,30,SME current account for supplier payments,Business Banking
+Business,BIZ PAYROLL,8,Needs business payroll services,Business Banking
+Corporate,CORP TRADE,72,Corporate client uses trade finance,Corporate Banking
+Corporate,CORP CASH,55,Requires cash management services,Corporate Banking
+Corporate,CORP FX,41,Corporate foreign exchange activity,Corporate Banking
+Corporate,CORP LOAN,89,Large corporate lending relationship,Corporate Banking
+Savings,SAV DEBIT,11,Uses savings account and mobile banking,Retail Savings
+Current,CUR CHEQUE,19,Transactions through branch and ATM,Retail Transactional
+Salary,SAL DEBIT,12,Employer credits salary monthly,Payroll Banking
+Fixed Deposit,FD SAV,25,Fixed deposit account renewal request,Deposits & Investment
+Business,SME BIZ,20,Small enterprise banking support,Business Banking
+Corporate,CORP TRADE,64,Trade finance and corporate payments,Corporate Banking
+Savings,SAV CARD,15,Retail saver prefers card transactions,Retail Savings
+Current,CUR DEBIT,33,High frequency household payments,Retail Transactional
